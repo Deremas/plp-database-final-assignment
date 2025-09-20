@@ -138,3 +138,10 @@ Products
 - DELETE /products/:id – Delete product
 
 (Routes for Orders, OrderItems, Categories, and Staff can be added similarly.)
+
+---
+## 👨‍💻 Developer
+> **Name:** Dereje Masresha  
+> **GitHub:** [Deremas](https://github.com/Deremas)  
+> **LinkedIn:** [Dereje Masresha](https://www.linkedin.com/in/derejemasresha)
+---
