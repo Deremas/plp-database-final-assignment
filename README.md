@@ -76,9 +76,7 @@ All relationships, primary keys, foreign keys, and indexes are defined in the `a
 ├─ answer.sql # Database schema and sample data
 └─ package.json # Node.js dependencies`
 
-````yaml
-
----
+`
 
 ## Environment Variables
 
@@ -90,7 +88,7 @@ DB_USER=your-username
 DB_PASSWORD=your-password
 DB_NAME=your-database
 PORT= your-post
-````
+```
 
 ## Installation
 
@@ -122,18 +120,21 @@ node server.js
 ```
 
 ## API Endpoints
+
 Customers
- - GET /customers – Get all customers
- - GET /customers/:id – Get customer by ID
- - POST /customers – Create a new customer
- - PUT /customers/:id – Update customer
- - DELETE /customers/:id – Delete customer
+
+- GET /customers – Get all customers
+- GET /customers/:id – Get customer by ID
+- POST /customers – Create a new customer
+- PUT /customers/:id – Update customer
+- DELETE /customers/:id – Delete customer
 
 Products
- - GET /products – Get all products
- - GET /products/:id – Get product by ID
- - POST /products – Create a new product
- - PUT /products/:id – Update product
- - DELETE /products/:id – Delete product
+
+- GET /products – Get all products
+- GET /products/:id – Get product by ID
+- POST /products – Create a new product
+- PUT /products/:id – Update product
+- DELETE /products/:id – Delete product
 
 (Routes for Orders, OrderItems, Categories, and Staff can be added similarly.)
