@@ -15,9 +15,7 @@ It demonstrates how to manage Customers, Products, Orders, Categories, OrderItem
 - [File Structure](#file-structure)
 - [Environment Variables](#environment-variables)
 - [Installation](#installation)
-- [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [License](#license)
 
 ---
 
@@ -122,3 +120,20 @@ mysql -u root -p < answer.sql
 ```bash
 node server.js
 ```
+
+## API Endpoints
+Customers
+ - GET /customers – Get all customers
+ - GET /customers/:id – Get customer by ID
+ - POST /customers – Create a new customer
+ - PUT /customers/:id – Update customer
+ - DELETE /customers/:id – Delete customer
+
+Products
+ - GET /products – Get all products
+ - GET /products/:id – Get product by ID
+ - POST /products – Create a new product
+ - PUT /products/:id – Update product
+ - DELETE /products/:id – Delete product
+
+(Routes for Orders, OrderItems, Categories, and Staff can be added similarly.)
